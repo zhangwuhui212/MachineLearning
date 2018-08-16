@@ -10,11 +10,8 @@
 #@time: 2018/8/7 16:09 
 
 
-"""
-@author : kelvin
-@file : mafengwo_scrapy
-@time : 2017/2/21 7:50
-@description : 爬蚂蜂窝热门旅游景点信息
+""" 
+爬蚂蜂窝热门旅游景点信息
 """
 
 import requests
