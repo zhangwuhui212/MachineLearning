@@ -71,7 +71,7 @@ if __name__ == '__main__':
                                            'WUCMemberLogin_txt_password',
                                            'WUCMemberLogin_txtCheckCode',
                                            'WUCMemberLogin_btn_login')
-        mgi.go( 'zhangwuhui212', '463523')
+        mgi.go( 'your username', 'your password')
 
     if 0:
         hf = open('D:\\fgj.html')
