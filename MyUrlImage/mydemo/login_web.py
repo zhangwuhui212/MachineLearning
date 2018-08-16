@@ -26,7 +26,7 @@ def login():
                       r'Chrome/45.0.2454.85 Safari/537.36 115Browser/6.0.3',
         'Referer': r'http://fgj.xa.gov.cn/hd/IndexYwzxForum.aspx',
         'Connection': 'keep-alive',
-        'Cookie':'cookie=58554222; __jsluid=a51ca6a43f38c4941bf1499078e51dc8; ASP.NET_SessionId=rxfgmbuebamguprppudnrzuw; _gscu_422033929=33567331lou7do16; _gscbrs_422033929=1; UM_distinctid=1650fbc7041256-0c0fa8866d33328-516e2220-11bab0-1650fbc70422b1; Hm_lvt_dba247c4516279e648c9ec128654c148=1533567333; CNZZDATA3449008=cnzz_eid%3D140279261-1533566821-http%253A%252F%252Ffgj.xa.gov.cn%252F%26ntime%3D1533566821; Hm_lvt_d7682ab43891c68a00de46e9ce5b76aa=1533567491; Hm_lpvt_d7682ab43891c68a00de46e9ce5b76aa=1533567491; CNZZDATA2851712=cnzz_eid%3D830450983-1533566210-null%26ntime%3D1533598714; _gscs_422033929=t336032250n24py77|pv:2; Hm_lpvt_dba247c4516279e648c9ec128654c148=1533603253'
+        'Cookie':'your cookies'
     }
     data = {
         '': '',
@@ -56,9 +56,9 @@ def login_1():
         # '__VIEWSTATE': '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',
         # '__VIEWSTATEGENERATOR': '6B059315',
         # '__EVENTVALIDATION':'/wEWGwKE+6ugAgLLgpzlCwK9pJS0CAKdivS2CgLRyK7kBQK256LXAQLfi4frDwLR0MDsCwLeucmEDwKT+7uQCALsud6BBgLxuP3fBgLB+pWoAwLkz+GNCQLy9pSkCQLCorq9AwKigeq+AgK1kKjqDALY8fu/BQLHtI3OBALl1bxmAuDX398PAqWpiswDAqakz6UMAq7bmrwIAsrCq4IJAuiXhc0DrXLY3W1eEat+eQcxkW6tDqDEA6iXoeUPcos0pNJCYac=',
-        'WUCMemberLogin1_txt_userName': 'zhangwuhui212',
-        'WUCMemberLogin1_txt_password': '463523',
-        'WUCMemberLogin1_txtCheckCode': '8718',
+        'WUCMemberLogin1_txt_userName': 'your username',
+        'WUCMemberLogin1_txt_password': 'you password',
+        'WUCMemberLogin1_txtCheckCode': 'yanzhengma',
         'WUCMemberLogin1_btn_login': '登 录'
     }
     data = urllib.parse.urlencode(data).encode('utf-8')
